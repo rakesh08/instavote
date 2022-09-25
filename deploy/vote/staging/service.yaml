@@ -4,10 +4,10 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
-  name: vote01
+  name: vote
 spec:
   ports:
-  - name: 80-80
+  - name: 80-8001
     nodePort: 30300
     port: 80
     protocol: TCP
